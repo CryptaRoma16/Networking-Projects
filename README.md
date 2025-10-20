@@ -2,4 +2,4 @@
 My Networking Engineering Project 1.0
 
 - [How to share a folder from USBdrive to another PC thru Network](https://github.com/CryptaRoma16/Networking-Projects/blob/main/USB%20drive%20sharedfolder.md)
-- 
+- [Creating New volume from 16GB to 6.90GB and 8.10GB storage USB drive](https://github.com/CryptaRoma16/Networking-Projects/blob/main/Create%20new%20volume%20storage.md)
