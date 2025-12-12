@@ -1,0 +1,14 @@
+### Application Startup Error 0xc00000006 - How to Fix it
+
+Click Windows/Start Icon
+Type "msconfig"
+Click System Configuration
+General > Uncheck load startup items > Apply
+Services > Disable all > Apply
+Restart
+
+Click Windows/Start Icon
+Type "cmd"
+Click Command Prompt > as Administration
+Type "src /scannow"
+Type "DISM /ONLINE /CLEANUP-IMAGE / RESTOREHEALTH
