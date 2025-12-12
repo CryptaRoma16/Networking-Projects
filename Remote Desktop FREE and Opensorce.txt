@@ -1,0 +1,14 @@
+ -- RustDesk (FREE and Open source)
+	Remote Desktop (windows, Linux, Mac)
+	
+	Browser-based
+	- Guacamole
+	- KASM VNC
+
+You need install rustdesk on your host and client PC.
+Open rustdesk > network > click Unlock
+and Security > Click unlock - select Full access
+Get the ID and password from host. then connect.
+You can set permanent password for easy access.
+
+Enjoy
