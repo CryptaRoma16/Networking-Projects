@@ -1,0 +1,47 @@
+### Access Remote Desktop over the internet or Outside Network
+Caution!: Openning RDP port may take ypur own rosl, when you just off your LAN and cameback to your PC2
+it can possibly vulnarable hit with a ransomware attack with all your files will be locked. Do not share you WAN IP address.
+- This is an educational purpose or personal use only!
+
+Setup 1:
+  Setup your Remote Desktop
+  PC2 - Settings > System > Enable Remote Desktop
+  - Make sure you use Windows Pro version in both remote and client.
+  - Your email address or microsoft account signed in to use.
+
+  Router
+  - Setup port forwarding on router
+  - Make sure you are connected to network
+
+  Get your IP address
+  - Open command prompt type "ipconfig", get the IPv4 address
+  - Modify your Ethernet IP from DHCP to Static
+  - Open Network Connections, Right-Click Ethernet > Properties
+  - Select the IPv4 > Select - Use the following IP address: <ipv4 add> <subnet mask> <default gateway>
+  - Preferred DNS server: 8.8.8.8, Alt DNS server: 8.8.4.4
+
+Login to your router go to browser type: default gateway
+- Go to port forwarding > Virtual server > add new > 3389
+  IPv4 address, 3389, ALL, Enabled click save
+
+*Note down your IP address of your router WAN
+
+(optional - skip if you have static WAN IP)
+ Dynamic DNS > noip.com > fill up> enable DDNS > login
+ 
+ Remember the domain name
+ 
+ Step 2
+ Connect to the Remote Desktop from a Different Network
+ PC1 - Open remote desktop connection
+ Computer: publick IP address of the remote PC
+ (basically this is your static IP WAN router)
+ 
+ But if you have DDNS place the Domain name
+ Username: email address of the PC2
+ check : allow
+ Connect
+ Enter the password of the remote desktop
+ 
+ You can now connect to remote PC immediately!
+  
